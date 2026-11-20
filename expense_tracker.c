@@ -2,7 +2,7 @@
 
 #define MAX 100
 
-// Global variables
+
 float budget = 0;
 float total = 0;
 float expenses[4] = {0};
@@ -18,7 +18,7 @@ char categories[4][20] = {
     "Entertainment"
 };
 
-// Function declarations
+
 void setBudget(void);
 void addExpense(void);
 void viewExpenses(void);
@@ -87,7 +87,7 @@ int main(void)
     return 0;
 }
 
-// Function 1: Set monthly budget
+
 void setBudget(void)
 {
     float newBudget;
@@ -111,7 +111,6 @@ void setBudget(void)
     printf("Monthly Budget: Rs. %.2f\n", budget);
 }
 
-// Function 2: Add expense
 void addExpense(void)
 {
     int category;
@@ -179,7 +178,6 @@ void addExpense(void)
     }
 }
 
-// Function 3: View all expenses
 void viewExpenses(void)
 {
     int i;
@@ -203,7 +201,6 @@ void viewExpenses(void)
     }
 }
 
-// Function 4: Expense summary
 void viewSummary(void)
 {
     float remaining;
@@ -233,7 +230,6 @@ void viewSummary(void)
     }
 }
 
-// Function 5: Category-wise report
 void categoryReport(void)
 {
     int i, maxIndex = 0;
