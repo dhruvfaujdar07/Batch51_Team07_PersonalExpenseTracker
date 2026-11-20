@@ -201,7 +201,9 @@ The project provides a foundation for developing more advanced personal finance 
 
 **Developed by Batch 51 — Team 07**
 
-**Ravi | Dhruv | Sarthak**
+**Ravi Kant Yadav - 590040813
+Dhruv Kumar Faujdar - 590041014
+Sarthak Kumar - 590037302**
 
 **Programming Language: C**
 
